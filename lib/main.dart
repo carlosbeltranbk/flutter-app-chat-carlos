@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:beltchat/routes/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'BeltChat',
-      initialRoute: 'login',
+      initialRoute: 'chat',
       routes: appRoutes,
     );
   }
